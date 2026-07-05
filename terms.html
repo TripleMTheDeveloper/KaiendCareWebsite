@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kained Care | Terms of Service</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>KaiendCare | Terms of Service</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="page terms-page">
-        <section>
-            <a href="privacy.html" class="nav-link">&larr; Back to Privacy Center</a>
-            <h1 class="page-title">Terms of Service</h1>
-            <p class="metadata">Last updated October 12, 2025</p>
-            <div class="scroll-area legal-section">
+<body class="home terms-doc">
+    <header class="site-header site-header--nav-only">
+        <nav class="site-nav site-nav--floating" aria-label="Main navigation">
+            <a class="site-brand" href="index.html">KaiendCare</a>
+            <div class="site-nav__actions">
+                <a class="nav-pill" href="index.html">Home</a>
+                <a class="nav-pill" href="index.html#about">About</a>
+                <a class="nav-pill nav-pill--active" href="terms.html" aria-current="page">Terms</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="terms-section">
+        <div class="terms-section__inner">
+            <h1 class="terms-heading">Terms of Service</h1>
+            <p class="terms-meta">Last updated October 12, 2025</p>
+            <div class="legal-section legal-section--light">
                 <p>
-                    These are the Terms and Conditions governing the use of the Kaiened Care service and the agreement
+                    These are the Terms and Conditions governing the use of the KaiendCare service and the agreement
                     that operates between you and the company. Please read these terms carefully before using the app.
                 </p>
                 <h2>Acknowledgment</h2>
@@ -24,9 +36,9 @@
                     then you may not access the service. You represent that you are over the age of 18. The service does not permit
                     those under 18 to use it.
                 </p>
-                <h2>Accountability & Lawful Processing</h2>
+                <h2>Accountability &amp; Lawful Processing</h2>
                 <p>
-                    Kaiened Care is the responsible party for the processing of your personal information. We process your data only when we have a lawful
+                    KaiendCare is the responsible party for the processing of your personal information. We process your data only when we have a lawful
                     basis to do so, which includes your consent, the necessity of fulfilling a contract with you, or to comply with legal obligations.
                     Our registered office is located at Southgate Ridge Security Estate, 1 Duuinoord Street, Meredale Johannesburg Gauteng.
                 </p>
@@ -52,7 +64,7 @@
                     We only share information with vetted third-party operators who support hosting, analytics, or payment processing and are bound by contracts
                     to protect your information. We may disclose data when required to do so by South African law, court order, or government regulation.
                 </p>
-                <h2>Data Retention & Disposal</h2>
+                <h2>Data Retention &amp; Disposal</h2>
                 <p>
                     We retain your data for as long as your account remains active and for an additional period when required to meet legal, accounting,
                     or reporting requirements. Once that period expires, information is securely deleted, destroyed, or anonymized.
@@ -62,11 +74,11 @@
                     You have the right to access your information, request corrections or deletion, object to processing, and submit complaints to the South African Information Regulator.
                     Contact the Information Officer at privacy@kaienedcare.co.za or +27 (00) 000 0000 to exercise these rights.
                 </p>
-                <h2>Contact details</h2>
+                <h2>Contact &amp; Regulator Details</h2>
                 <p>
                     Information Officer: [Name]<br>
-                    Email: kainedcare@gmail.com<br>
-                    Phone: +27 74 250 0983br>
+                    Email: privacy@kaienedcare.co.za<br>
+                    Phone: +27 (00) 000 0000<br>
                     The Information Regulator (South Africa): JD House, 27 Stiemens Street, Braamfontein, Johannesburg, 2001.
                 </p>
                 <h2>Changes to this Policy</h2>
@@ -74,11 +86,9 @@
                     We may update these terms to reflect changes in practices or legal requirements. When we do, we will notify you within the app or via email.
                 </p>
             </div>
-            <div class="legal-actions">
-                <button class="btn btn-secondary" type="button">Decline</button>
-                <button class="btn btn-primary" type="button">Accept &amp; Continue</button>
-            </div>
-        </section>
-    </div>
+        </div>
+    </main>
+
+    <script type="module" src="/src/pages/terms.ts"></script>
 </body>
 </html>
