@@ -471,6 +471,57 @@ body {
     margin: 0.5rem 0;
 }
 
+.home .terms-section .legal-section--light h3 {
+    margin: 1rem 0 0.25rem;
+    font-size: 0.98rem;
+    font-weight: 600;
+    color: #3d2d6b;
+}
+
+.home .terms-section .legal-section--light ul {
+    margin: 0.35rem 0 0.85rem 1.15rem;
+    padding: 0;
+    color: #5c5478;
+}
+
+.home .terms-section .legal-section--light li {
+    margin: 0.3rem 0;
+    line-height: 1.7;
+}
+
+.home .legal-footer {
+    margin-top: 2rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(61, 45, 107, 0.12);
+}
+
+.home .terms-section .legal-section--light a {
+    color: #6e5ba4;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.home .terms-section .legal-section--light a:hover {
+    color: #4f3d85;
+}
+
+.home .contact-item__name {
+    white-space: nowrap;
+}
+
+.home .contact-item__text a {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    overflow-wrap: anywhere;
+}
+
+.home .contact-item__text a:hover {
+    color: rgba(255, 255, 255, 0.85);
+}
+
 .home .hero-header {
     min-height: clamp(520px, 88vh, 760px);
     padding: clamp(7rem, 14vw, 10rem) clamp(1.5rem, 5vw, 4rem) clamp(4rem, 10vw, 6rem);
